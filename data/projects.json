@@ -1,0 +1,167 @@
+[
+  {
+    "id": "project-12",
+    "title": "Commercial Facade Upgrade",
+    "category": "Commercial construction",
+    "description": "Modern frontage work with clean finishes and upgraded visual appeal.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project12.png",
+    "featured": true,
+    "createdAt": "2026-04-11T14:27:16.194Z",
+    "updatedAt": "2026-04-11T14:27:16.201Z"
+  },
+  {
+    "id": "project-2-video",
+    "title": "Site Progress Walkthrough",
+    "category": "Project video",
+    "description": "Short walkthrough showing key milestones on site.",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video1.mp4",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.201Z",
+    "updatedAt": "2026-04-11T14:27:16.201Z"
+  },
+  {
+    "id": "project-2",
+    "title": "Residential Frame Build",
+    "category": "Residential construction",
+    "description": "Structural work and early-stage build progress for a home project.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project2.png",
+    "featured": true,
+    "createdAt": "2026-04-11T14:27:16.201Z",
+    "updatedAt": "2026-04-11T14:27:16.201Z"
+  },
+  {
+    "id": "project-3-video",
+    "title": "Construction Timelapse",
+    "category": "Project video",
+    "description": "A compact timelapse of ongoing building work.",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video2.mp4",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.201Z",
+    "updatedAt": "2026-04-11T14:27:16.201Z"
+  },
+  {
+    "id": "project-3",
+    "title": "Apartment Exterior",
+    "category": "Multi-unit residential",
+    "description": "Exterior progress on a multi-unit development.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project3.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.201Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-4",
+    "title": "Exterior Fit-Out",
+    "category": "Residential construction",
+    "description": "Exterior finishing work with emphasis on detail and clean lines.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project4.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T20:13:46.808Z"
+  },
+  {
+    "id": "project-5",
+    "title": "Luxury Residence",
+    "category": "Residential construction",
+    "description": "Premium finish package for a high-end residential property.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project5.png",
+    "featured": true,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-6",
+    "title": "Concrete and Masonry",
+    "category": "Commercial construction",
+    "description": "Durable masonry work with precise structural alignment.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project6.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-7",
+    "title": "Exterior Finishing",
+    "category": "Commercial construction",
+    "description": "Exterior work with weather-ready material selection.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project7.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-8",
+    "title": "Structural Progress",
+    "category": "Commercial construction",
+    "description": "Primary structure stage captured during active site work.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project8.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-9",
+    "title": "Roadside Build",
+    "category": "Commercial renovation",
+    "description": "Urban site development and structural detailing.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project9.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-10",
+    "title": "Finishing Phase",
+    "category": "Residential construction",
+    "description": "Clean finishing phase with attention to surface detail.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project10.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-3-video-2",
+    "title": "On-Site Progress Clip",
+    "category": "Project video",
+    "description": "Short clip showing active site movement and progress.",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video3.mp4",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-11",
+    "title": "Project Wrap-Up",
+    "category": "Commercial renovation",
+    "description": "Completed work showcasing the finished exterior look.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project11.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-1",
+    "title": "Development Overview",
+    "category": "Commercial construction",
+    "description": "General progress shot from one of the early project phases.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project1.png",
+    "featured": true,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  }
+]

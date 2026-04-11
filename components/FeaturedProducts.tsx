@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import AddToCartButton from "./AddToCartButton";
-import { products } from "@/app/shop/data";
+import type { ProductRecord } from "@/lib/content-store";
 
-const featuredProducts = products.slice(0, 4);
+type FeaturedProductsProps = {
+  products: ProductRecord[];
+};
 
-export default function FeaturedProducts() {
+export default function FeaturedProducts({ products }: FeaturedProductsProps) {
   return (
     <section id="products" className="bg-slate-50 px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
@@ -16,9 +17,9 @@ export default function FeaturedProducts() {
         </h2>
 
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
-          {featuredProducts.map((product, index) => (
+          {products.map((product, index) => (
             <motion.div
-              key={product.slug}
+              key={product.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
@@ -26,15 +27,18 @@ export default function FeaturedProducts() {
               whileHover={{ y: -6 }}
               className="overflow-hidden rounded-2xl bg-white shadow-[0_10px_25px_rgba(15,23,42,0.08)]"
             >
-              <Link href={`/shop/${product.slug}`} className="block">
+              <Link href={`/shop/${product.id}`} className="block">
                 <img
-                  src={product.image}
+                  src={product.imageUrl}
                   alt={product.name}
                   className="h-44 w-full object-cover"
                 />
               </Link>
               <div className="px-4 py-4 text-left">
-                <Link href={`/shop/${product.slug}`} className="block">
+                <Link href={`/shop/${product.id}`} className="block">
+                  <p className="text-[10px] uppercase tracking-[0.22em] text-blue-700">
+                    {product.category}
+                  </p>
                   <h3 className="text-sm font-semibold text-slate-900">
                     {product.name}
                   </h3>
@@ -43,12 +47,17 @@ export default function FeaturedProducts() {
                   </p>
                 </Link>
                 <div className="mt-4 flex items-center justify-between">
-                  <p className="text-sm font-bold text-blue-700">{product.price}</p>
-                  <AddToCartButton
-                    product={product}
-                    iconOnly
-                    className="rounded-md bg-blue-700 p-2 text-white transition hover:scale-105"
-                  />
+                  <Link
+                    href={`/shop/${product.id}`}
+                    className="rounded-md bg-blue-700 px-3 py-2 text-xs font-medium text-white transition hover:scale-105"
+                  >
+                    View details
+                  </Link>
+                  {product.featured ? (
+                    <span className="rounded-full bg-blue-50 px-2.5 py-1 text-[10px] font-semibold text-blue-700">
+                      Featured
+                    </span>
+                  ) : null}
                 </div>
               </div>
             </motion.div>

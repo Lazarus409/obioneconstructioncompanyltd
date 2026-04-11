@@ -3,13 +3,11 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, ShoppingCart, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
-import { useCart } from "./CartProvider";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { itemCount } = useCart();
 
   const navLinks = [
     { href: "/", label: "Home" },
@@ -52,19 +50,6 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/cart"
-            aria-label="Shopping cart"
-            className="relative text-slate-600 transition hover:text-blue-700"
-          >
-            <ShoppingCart className="h-4 w-4 sm:h-5 sm:w-5" />
-            {itemCount > 0 ? (
-              <span className="absolute -right-2.5 -top-2 inline-flex min-h-5 min-w-5 items-center justify-center rounded-full bg-red-500 px-1 text-[10px] font-bold text-white">
-                {itemCount}
-              </span>
-            ) : null}
-          </Link>
-
           <button
             type="button"
             aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}

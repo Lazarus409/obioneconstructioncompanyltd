@@ -1,6 +1,7 @@
 "use client";
 
 import { BadgeCheck, Compass, Eye, Handshake, ShieldCheck } from "lucide-react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -273,18 +274,18 @@ export default function AboutPage() {
               requirements.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a
+              <Link
                 href="/contact"
                 className="rounded-md bg-orange-500 px-6 py-3 text-sm font-medium text-white transition hover:scale-105"
               >
                 Get In Touch
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#services"
                 className="rounded-md bg-white px-6 py-3 text-sm font-medium text-blue-900 transition hover:scale-105"
               >
                 Explore Services
-              </a>
+              </Link>
             </div>
           </div>
         </section>

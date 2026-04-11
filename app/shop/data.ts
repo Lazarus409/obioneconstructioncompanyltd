@@ -1,7 +1,7 @@
 export type Product = {
   slug: string;
   name: string;
-  price: string;
+
   category: string;
   sku: string;
   subtitle: string;
@@ -14,19 +14,43 @@ export type Product = {
 export const shopCategories = [
   {
     title: "Engine Parts",
-    items: ["Oil Filters", "Air Filters", "Spark Plugs", "Timing Belts", "Gaskets"],
+    items: [
+      "Oil Filters",
+      "Air Filters",
+      "Spark Plugs",
+      "Timing Belts",
+      "Gaskets",
+    ],
   },
   {
     title: "Brake Systems",
-    items: ["Brake Pads", "Brake Rotors", "Brake Fluid", "Brake Calipers", "Brake Lines"],
+    items: [
+      "Brake Pads",
+      "Brake Rotors",
+      "Brake Fluid",
+      "Brake Calipers",
+      "Brake Lines",
+    ],
   },
   {
     title: "Suspension",
-    items: ["Shock Absorbers", "Strut Assemblies", "Control Arms", "Ball Joints", "Bushings"],
+    items: [
+      "Shock Absorbers",
+      "Strut Assemblies",
+      "Control Arms",
+      "Ball Joints",
+      "Bushings",
+    ],
   },
   {
     title: "Electrical",
-    items: ["Car Batteries", "Alternators", "Starters", "Fuses & Relays", "Light Bulbs"],
+    items: [
+      "Car Batteries",
+      "Alternators",
+      "Starters",
+      "Fuses & Relays",
+      "Light Bulbs",
+    ],
   },
 ];
 
@@ -34,7 +58,6 @@ export const products: Product[] = [
   {
     slug: "premium-engine-oil-filter",
     name: "Premium Engine Oil Filter",
-    price: "$24.99",
     category: "Oil Filters",
     sku: "OIL-FILTER-001",
     subtitle: "Universal Fit - High Performance",
@@ -46,7 +69,10 @@ export const products: Product[] = [
       { label: "Filter Type", value: "Spin-On" },
       { label: "Dimensions", value: '3.5" x 5.0" (D)' },
       { label: "Weight", value: "0.5 lbs" },
-      { label: "Compatibility", value: "Universal Fit - Most Toyota, Honda, Nissan" },
+      {
+        label: "Compatibility",
+        value: "Universal Fit - Most Toyota, Honda, Nissan",
+      },
     ],
     benefits: [
       "High-efficiency filtration media captures fine particles",
@@ -58,7 +84,6 @@ export const products: Product[] = [
   {
     slug: "brake-pads-set",
     name: "Brake Pads Set",
-    price: "$49.99",
     category: "Brake Pads",
     sku: "BRAKE-PAD-201",
     subtitle: "Front Axle - OEM Quality",
@@ -82,7 +107,7 @@ export const products: Product[] = [
   {
     slug: "all-season-tire",
     name: "All Season Tire",
-    price: "$129.99",
+
     category: "Tires",
     sku: "TIRE-225-6517",
     subtitle: "225/65R17 - Premium Road Grip",
@@ -106,7 +131,6 @@ export const products: Product[] = [
   {
     slug: "car-battery",
     name: "Car Battery",
-    price: "$89.99",
     category: "Car Batteries",
     sku: "BATTERY-12V-88",
     subtitle: "12V Maintenance Free",
@@ -130,7 +154,6 @@ export const products: Product[] = [
   {
     slug: "shock-absorber",
     name: "Shock Absorber",
-    price: "$79.99",
     category: "Shock Absorbers",
     sku: "SHOCK-ABS-115",
     subtitle: "Front Suspension - Heavy Duty",
@@ -154,7 +177,6 @@ export const products: Product[] = [
   {
     slug: "headlight-assembly",
     name: "Headlight Assembly",
-    price: "$109.99",
     category: "Light Bulbs",
     sku: "HEADLIGHT-310",
     subtitle: "LED Projector - OEM Quality",
@@ -178,7 +200,6 @@ export const products: Product[] = [
   {
     slug: "alternator",
     name: "Alternator",
-    price: "$149.99",
     category: "Alternators",
     sku: "ALT-120A-442",
     subtitle: "120A - Compatible with Most Models",
@@ -202,7 +223,6 @@ export const products: Product[] = [
   {
     slug: "brake-rotor",
     name: "Brake Rotor",
-    price: "$59.99",
     category: "Brake Rotors",
     sku: "ROTOR-FRT-220",
     subtitle: "Ventilated - Front Axle",

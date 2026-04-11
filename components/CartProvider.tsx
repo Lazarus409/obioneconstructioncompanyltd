@@ -36,15 +36,11 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<CartContextValue>(() => {
     const itemCount = items.reduce((total, item) => total + item.quantity, 0);
-    const subtotal = items.reduce(
-      (total, item) => total + getPriceValue(item.price) * item.quantity,
-      0,
-    );
 
     return {
       items,
       itemCount,
-      subtotal,
+      subtotal: 0,
       addItem: (product) => {
         setItems((currentItems) => {
           const existingItem = currentItems.find(
@@ -95,10 +91,6 @@ export function useCart() {
   }
 
   return context;
-}
-
-function getPriceValue(price: string) {
-  return Number(price.replace(/[^0-9.]/g, ""));
 }
 
 function getStoredCartItems() {

@@ -19,6 +19,7 @@ export default function Products() {
           >
             <img
               src={`/images/product${item}.jpg`}
+              alt={`Product ${item}`}
               className="h-40 w-full object-cover mb-4"
             />
 
