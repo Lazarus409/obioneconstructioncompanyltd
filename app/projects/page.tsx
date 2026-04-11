@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const projects = Array.from({ length: 8 }, (_, index) => ({
+const projects = Array.from({ length: 7 }, (_, index) => ({
   image: `/images/project${index + 1}.png`,
   alt: `Obi One project ${index + 1}`,
 }));
