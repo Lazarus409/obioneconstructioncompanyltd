@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ShoppingCart, MessageCircle, Star } from "lucide-react";
+import { MessageCircle, Star } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AddToCartButton from "@/components/AddToCartButton";
 import { products, relatedProducts } from "../data";
 
 type ProductPageProps = {
@@ -85,13 +86,10 @@ export default async function ProductDetailPage({
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <button
-                    type="button"
-                    className="flex items-center gap-2 rounded-md bg-red-500 px-6 py-3 text-sm font-medium text-white transition hover:scale-105"
-                  >
-                    <ShoppingCart className="h-4 w-4" />
-                    Add to Cart
-                  </button>
+                  <AddToCartButton
+                    product={product}
+                    className="inline-flex items-center gap-2 rounded-md bg-red-500 px-6 py-3 text-sm font-medium text-white transition hover:scale-105"
+                  />
                   <button
                     type="button"
                     className="rounded-md bg-blue-800 px-6 py-3 text-sm font-medium text-white transition hover:scale-105"
@@ -143,9 +141,11 @@ export default async function ProductDetailPage({
                         <span className="text-sm font-bold text-blue-700">
                           {item.price}
                         </span>
-                        <span className="rounded bg-blue-800 p-2 text-white">
-                          <ShoppingCart className="h-3.5 w-3.5" />
-                        </span>
+                        <AddToCartButton
+                          product={item}
+                          iconOnly
+                          className="inline-flex rounded bg-blue-800 p-2 text-white transition hover:scale-105"
+                        />
                       </div>
                     </Link>
                   </div>

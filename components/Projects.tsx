@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Modern Office Building",
     category: "Commercial construction",
-    image: "/images/project2.png",
+    image: "/images/project12.png",
   },
   {
     title: "Luxury Residential Home",
@@ -17,12 +17,12 @@ const projects = [
   {
     title: "Car Dealership Complex",
     category: "Commercial renovation",
-    image: "/images/project6.png",
+    image: "/images/project8.png",
   },
   {
     title: "Apartment Complex",
     category: "Multi-unit residential",
-    image: "/images/project8.png",
+    image: "/images/project3.png",
   },
 ];
 

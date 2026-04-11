@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { ShoppingCart, Search, MessageCircle } from "lucide-react";
+import { Search, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AddToCartButton from "@/components/AddToCartButton";
 import { products, shopCategories } from "./data";
 
 export default function ShopPage() {
@@ -83,12 +84,10 @@ export default function ShopPage() {
                         <p className="text-[13px] font-bold text-blue-700">
                           {product.price}
                         </p>
-                        <button
-                          type="button"
-                          className="rounded-md bg-red-500 px-2.5 py-1.5 text-[10px] font-medium text-white transition hover:scale-105"
-                        >
-                          Add to Cart
-                        </button>
+                        <AddToCartButton
+                          product={product}
+                          className="inline-flex items-center gap-1 rounded-md bg-red-500 px-2.5 py-1.5 text-[10px] font-medium text-white transition hover:scale-105"
+                        />
                       </div>
                     </motion.div>
                   ))}
