@@ -20,6 +20,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     notFound();
   }
 
+  const isOilFilter = product.id === "premium-engine-oil-filter";
   const related = products.filter((item) => item.id !== product.id).slice(0, 4);
 
   return (
@@ -43,7 +44,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
               <div>
                 <div className="flex flex-wrap items-center gap-3">
                   <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-800">
-                    In Stock
+                    {isOilFilter ? "Catalog Item" : "In Stock"}
                   </span>
                   <span className="text-xs text-slate-400">{product.sku}</span>
                 </div>

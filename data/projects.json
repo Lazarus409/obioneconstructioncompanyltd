@@ -2,18 +2,18 @@
   {
     "id": "project-12",
     "title": "Commercial Facade Upgrade",
-    "category": "Commercial construction",
+    "category": "Bogla Proof Works",
     "description": "Modern frontage work with clean finishes and upgraded visual appeal.",
     "mediaType": "image",
     "mediaUrl": "/images/project12.png",
-    "featured": true,
+    "featured": false,
     "createdAt": "2026-04-11T14:27:16.194Z",
     "updatedAt": "2026-04-11T14:27:16.201Z"
   },
   {
     "id": "project-2-video",
     "title": "Site Progress Walkthrough",
-    "category": "Project video",
+    "category": "Bogla Proof Works",
     "description": "Short walkthrough showing key milestones on site.",
     "mediaType": "video",
     "mediaUrl": "/videos/video1.mp4",
@@ -101,7 +101,7 @@
   {
     "id": "project-8",
     "title": "Structural Progress",
-    "category": "Commercial construction",
+    "category": "Bogla Proof Works",
     "description": "Primary structure stage captured during active site work.",
     "mediaType": "image",
     "mediaUrl": "/images/project8.png",
@@ -112,7 +112,7 @@
   {
     "id": "project-9",
     "title": "Roadside Build",
-    "category": "Commercial renovation",
+    "category": "Bogla Proof Works",
     "description": "Urban site development and structural detailing.",
     "mediaType": "image",
     "mediaUrl": "/images/project9.png",
@@ -123,7 +123,7 @@
   {
     "id": "project-10",
     "title": "Finishing Phase",
-    "category": "Residential construction",
+    "category": "Bogla Proof Works",
     "description": "Clean finishing phase with attention to surface detail.",
     "mediaType": "image",
     "mediaUrl": "/images/project10.png",
@@ -134,7 +134,7 @@
   {
     "id": "project-3-video-2",
     "title": "On-Site Progress Clip",
-    "category": "Project video",
+    "category": "Bogla Proof Works",
     "description": "Short clip showing active site movement and progress.",
     "mediaType": "video",
     "mediaUrl": "/videos/video3.mp4",
@@ -145,7 +145,7 @@
   {
     "id": "project-11",
     "title": "Project Wrap-Up",
-    "category": "Commercial renovation",
+    "category": "Bogla Proof Works",
     "description": "Completed work showcasing the finished exterior look.",
     "mediaType": "image",
     "mediaUrl": "/images/project11.png",

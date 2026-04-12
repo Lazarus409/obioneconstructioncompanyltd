@@ -37,6 +37,7 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const PROJECTS_FILE = path.join(DATA_DIR, "projects.json");
 const PRODUCTS_FILE = path.join(DATA_DIR, "products.json");
 const UPLOAD_DIR = path.join(process.cwd(), "public", "uploads");
+const BOGLA_PROOF_CATEGORY = "Bogla Proof Works";
 
 const seedNow = () => new Date().toISOString();
 
@@ -44,18 +45,18 @@ const defaultProjects: ProjectRecord[] = [
   {
     id: "project-12",
     title: "Commercial Facade Upgrade",
-    category: "Commercial construction",
+    category: BOGLA_PROOF_CATEGORY,
     description: "Modern frontage work with clean finishes and upgraded visual appeal.",
     mediaType: "image",
     mediaUrl: "/images/project12.png",
-    featured: true,
+    featured: false,
     createdAt: seedNow(),
     updatedAt: seedNow(),
   },
   {
     id: "project-2-video",
     title: "Site Progress Walkthrough",
-    category: "Project video",
+    category: BOGLA_PROOF_CATEGORY,
     description: "Short walkthrough showing key milestones on site.",
     mediaType: "video",
     mediaUrl: "/videos/video1.mp4",
@@ -143,7 +144,7 @@ const defaultProjects: ProjectRecord[] = [
   {
     id: "project-8",
     title: "Structural Progress",
-    category: "Commercial construction",
+    category: BOGLA_PROOF_CATEGORY,
     description: "Primary structure stage captured during active site work.",
     mediaType: "image",
     mediaUrl: "/images/project8.png",
@@ -154,7 +155,7 @@ const defaultProjects: ProjectRecord[] = [
   {
     id: "project-9",
     title: "Roadside Build",
-    category: "Commercial renovation",
+    category: BOGLA_PROOF_CATEGORY,
     description: "Urban site development and structural detailing.",
     mediaType: "image",
     mediaUrl: "/images/project9.png",
@@ -165,7 +166,7 @@ const defaultProjects: ProjectRecord[] = [
   {
     id: "project-10",
     title: "Finishing Phase",
-    category: "Residential construction",
+    category: BOGLA_PROOF_CATEGORY,
     description: "Clean finishing phase with attention to surface detail.",
     mediaType: "image",
     mediaUrl: "/images/project10.png",
@@ -176,7 +177,7 @@ const defaultProjects: ProjectRecord[] = [
   {
     id: "project-3-video-2",
     title: "On-Site Progress Clip",
-    category: "Project video",
+    category: BOGLA_PROOF_CATEGORY,
     description: "Short clip showing active site movement and progress.",
     mediaType: "video",
     mediaUrl: "/videos/video3.mp4",
@@ -187,7 +188,7 @@ const defaultProjects: ProjectRecord[] = [
   {
     id: "project-11",
     title: "Project Wrap-Up",
-    category: "Commercial renovation",
+    category: BOGLA_PROOF_CATEGORY,
     description: "Completed work showcasing the finished exterior look.",
     mediaType: "image",
     mediaUrl: "/images/project11.png",
@@ -593,4 +594,3 @@ function getFileExtension(fileName: string, mimeType: string) {
 export function parseBool(value: FormDataEntryValue | null) {
   return value === "on" || value === "true" || value === "1";
 }
-

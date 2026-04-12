@@ -24,7 +24,6 @@ export default function Products() {
             />
 
             <h4 className="font-medium mb-2">Product {item}</h4>
-            <p className="text-blue-600 font-bold">$120</p>
           </motion.div>
         ))}
       </div>
