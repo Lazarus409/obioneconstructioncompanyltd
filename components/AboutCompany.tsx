@@ -34,13 +34,13 @@ export default function AboutCompany() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="relative"
         >
-          <a
+          {/* <a
             href="https://wa.me/"
             aria-label="Chat with Obi One on WhatsApp"
             className="absolute right-0 top-0 flex h-11 w-11 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition hover:scale-105"
           >
             <MessageCircle className="h-5 w-5" />
-          </a>
+          </a> */}
 
           <h2 className="mb-5 pr-14 text-3xl font-bold text-slate-800">
             About Our Company

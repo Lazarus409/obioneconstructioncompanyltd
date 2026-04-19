@@ -2,6 +2,7 @@ import { connection } from "next/server";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProjectsGallery from "@/components/ProjectsGallery";
+import ProjectsHero from "@/components/ProjectsHero";
 import { listProjects } from "@/lib/content-store";
 
 export default async function ProjectsPage() {
@@ -13,13 +14,14 @@ export default async function ProjectsPage() {
       <Navbar />
 
       <main className="bg-slate-50 text-slate-800">
-        <section className="bg-slate-100 px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-6xl text-center">
-            <h1 className="text-4xl font-bold text-slate-900">Our Projects</h1>
-            <p className="mx-auto mt-4 max-w-2xl text-sm text-slate-500 sm:text-base">
-              A showcase of our completed construction projects and developments.
-            </p>
-          </div>
+        <section className="relative overflow-hidden px-4 py-20 text-white sm:px-6 lg:px-8">
+          <img
+            src="/images/hero.png"
+            alt="Construction services background"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-blue-950/70" />
+          <ProjectsHero />
         </section>
 
         <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
@@ -35,7 +37,8 @@ export default async function ProjectsPage() {
             </h2>
 
             <p className="mt-4 text-sm text-blue-100 sm:text-base">
-              Contact us to discuss your next construction project.
+              Contact us to discuss your next construction or electrical
+              project.
             </p>
 
             <a

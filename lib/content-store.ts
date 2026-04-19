@@ -26,6 +26,8 @@ export type ProductRecord = {
   subtitle: string;
   description: string;
   imageUrl: string;
+  mediaType?: MediaType;
+  mediaUrl?: string;
   specs: { label: string; value: string }[];
   benefits: string[];
   featured: boolean;
@@ -412,6 +414,381 @@ const defaultProducts: ProductRecord[] = [
   },
 ];
 
+type ProductSeed = {
+  id: string;
+  name: string;
+  category: string;
+  subtitle: string;
+  imageUrl: string;
+  featured?: boolean;
+};
+
+const curatedProductSeeds: ProductSeed[] = [
+  {
+    id: "engine-oil",
+    name: "Engine Oil",
+    category: "Lubricants & Fluids",
+    subtitle: "Routine service essential",
+    imageUrl: "/images/product1.png",
+    featured: true,
+  },
+  {
+    id: "brake-fluids",
+    name: "Brake Fluids",
+    category: "Lubricants & Fluids",
+    subtitle: "Hydraulic fluid for braking systems",
+    imageUrl: "/images/product2.png",
+    featured: true,
+  },
+  {
+    id: "gear-oils",
+    name: "Gear Oils",
+    category: "Lubricants & Fluids",
+    subtitle: "Workshop-ready gear oils",
+    imageUrl: "/images/product3.png",
+    featured: true,
+  },
+  {
+    id: "sealant",
+    name: "Sealant",
+    category: "Lubricants & Fluids",
+    subtitle: "Workshop-ready sealant",
+    imageUrl: "/images/product4.png",
+    featured: true,
+  },
+  {
+    id: "wiper-blades",
+    name: "Wiper Blades",
+    category: "Visibility & Weather Care",
+    subtitle: "Workshop-ready wiper blades",
+    imageUrl: "/images/product5.png",
+    featured: true,
+  },
+  {
+    id: "speakers",
+    name: "Speakers",
+    category: "Interior & Audio",
+    subtitle: "Workshop-ready speakers",
+    imageUrl: "/images/product6.png",
+    featured: true,
+  },
+  {
+    id: "air-condition-motors",
+    name: "Air-Condition Motors",
+    category: "Cooling & Climate",
+    subtitle: "Workshop-ready air-condition motors",
+    imageUrl: "/images/product7.png",
+  },
+  {
+    id: "master-cylinder",
+    name: "Master Cylinder",
+    category: "Brake System",
+    subtitle: "Workshop-ready master cylinder",
+    imageUrl: "/images/product8.png",
+  },
+  {
+    id: "boot-covers",
+    name: "Boot Covers",
+    category: "Exterior & Body",
+    subtitle: "Workshop-ready boot covers",
+    imageUrl: "/images/product9.png",
+  },
+  {
+    id: "water-hoses",
+    name: "Water Hoses",
+    category: "Cooling & Climate",
+    subtitle: "Workshop-ready water hoses",
+    imageUrl: "/images/product10.png",
+  },
+  {
+    id: "wiper-motor",
+    name: "Wiper Motor",
+    category: "Visibility & Weather Care",
+    subtitle: "Workshop-ready wiper motor",
+    imageUrl: "/images/product11.png",
+  },
+  {
+    id: "clutch-pedal",
+    name: "Clutch Pedal",
+    category: "Transmission & Drivetrain",
+    subtitle: "Workshop-ready clutch pedal",
+    imageUrl: "/images/product12.png",
+  },
+  {
+    id: "pumps",
+    name: "Pumps",
+    category: "Engine & Fuel",
+    subtitle: "Workshop-ready pumps",
+    imageUrl: "/images/product13.png",
+  },
+  {
+    id: "alternator",
+    name: "Alternator",
+    category: "Electrical & Ignition",
+    subtitle: "Reliable charging component",
+    imageUrl: "/images/product14.png",
+  },
+  {
+    id: "starters",
+    name: "Starters",
+    category: "Electrical & Ignition",
+    subtitle: "Workshop-ready starters",
+    imageUrl: "/images/product15.png",
+  },
+  {
+    id: "abs-motor-hydraulic-pump",
+    name: "ABS Motor / Hydraulic Pump",
+    category: "Brake System",
+    subtitle: "Workshop-ready ABS motor / hydraulic pump",
+    imageUrl: "/images/product16.png",
+  },
+  {
+    id: "brake-ports",
+    name: "Brake Ports",
+    category: "Brake System",
+    subtitle: "Workshop-ready brake ports",
+    imageUrl: "/images/product17.png",
+  },
+  {
+    id: "water-reservoir",
+    name: "Water Reservoir",
+    category: "Cooling & Climate",
+    subtitle: "Workshop-ready water reservoir",
+    imageUrl: "/images/product18.png",
+  },
+  {
+    id: "air-flow-meter",
+    name: "Air-Flow Meter",
+    category: "Engine & Fuel",
+    subtitle: "Workshop-ready air-flow meter",
+    imageUrl: "/images/product19.png",
+  },
+  {
+    id: "cooling-fan",
+    name: "Cooling Fan",
+    category: "Cooling & Climate",
+    subtitle: "Workshop-ready cooling fan",
+    imageUrl: "/images/product20.png",
+  },
+  {
+    id: "springs",
+    name: "Springs",
+    category: "Wheels & Suspension",
+    subtitle: "Workshop-ready springs",
+    imageUrl: "/images/product21.png",
+  },
+  {
+    id: "rims",
+    name: "Rims",
+    category: "Wheels & Suspension",
+    subtitle: "Workshop-ready rims",
+    imageUrl: "/images/product22.png",
+  },
+  {
+    id: "steering-wheels",
+    name: "Steering Wheels",
+    category: "Interior & Controls",
+    subtitle: "Workshop-ready steering wheels",
+    imageUrl: "/images/product23.png",
+  },
+  {
+    id: "side-mirrors",
+    name: "Side Mirrors",
+    category: "Exterior & Body",
+    subtitle: "Workshop-ready side mirrors",
+    imageUrl: "/images/product24.png",
+  },
+  {
+    id: "gear-lever",
+    name: "Gear Lever",
+    category: "Transmission & Drivetrain",
+    subtitle: "Workshop-ready gear lever",
+    imageUrl: "/images/product25.png",
+  },
+  {
+    id: "tail-lights",
+    name: "Tail Lights",
+    category: "Exterior Lighting",
+    subtitle: "Workshop-ready tail lights",
+    imageUrl: "/images/product26.png",
+  },
+  {
+    id: "head-light",
+    name: "Head Light",
+    category: "Exterior Lighting",
+    subtitle: "Workshop-ready head light",
+    imageUrl: "/images/product27.png",
+  },
+  {
+    id: "speedometer-panel",
+    name: "Speedometer Panel",
+    category: "Interior & Controls",
+    subtitle: "Workshop-ready speedometer panel",
+    imageUrl: "/images/product28.png",
+  },
+  {
+    id: "car-tapes",
+    name: "Car Tapes",
+    category: "Interior & Audio",
+    subtitle: "Workshop-ready car tapes",
+    imageUrl: "/images/product29.png",
+  },
+  {
+    id: "door-switch",
+    name: "Door Switch",
+    category: "Interior & Controls",
+    subtitle: "Workshop-ready door switch",
+    imageUrl: "/images/product30.png",
+  },
+  {
+    id: "e-nets",
+    name: "E-Nets",
+    category: "Safety & Accessories",
+    subtitle: "Workshop-ready e-nets",
+    imageUrl: "/images/product31.png",
+  },
+  {
+    id: "air-conditioning-condenser-hoses",
+    name: "Air Conditioning and Condenser Hoses",
+    category: "Cooling & Climate",
+    subtitle: "Workshop-ready air conditioning and condenser hoses",
+    imageUrl: "/images/product32.png",
+  },
+  {
+    id: "pressure-plates",
+    name: "Pressure Plates",
+    category: "Transmission & Drivetrain",
+    subtitle: "Workshop-ready pressure plates",
+    imageUrl: "/images/product33.png",
+  },
+  {
+    id: "wheel-covers",
+    name: "Wheel Covers",
+    category: "Wheels & Suspension",
+    subtitle: "Workshop-ready wheel covers",
+    imageUrl: "/images/product34.png",
+  },
+  {
+    id: "front-cart",
+    name: "Front Cart",
+    category: "Exterior & Body",
+    subtitle: "Workshop-ready front cart",
+    imageUrl: "/images/product35.png",
+  },
+  {
+    id: "bumper",
+    name: "Bumper",
+    category: "Exterior & Body",
+    subtitle: "Workshop-ready bumper",
+    imageUrl: "/images/product36.png",
+  },
+  {
+    id: "front-shields",
+    name: "Front Shields",
+    category: "Exterior & Body",
+    subtitle: "Workshop-ready front shields",
+    imageUrl: "/images/product37.png",
+  },
+  {
+    id: "fenders",
+    name: "Fenders",
+    category: "Exterior & Body",
+    subtitle: "Workshop-ready fenders",
+    imageUrl: "/images/product38.png",
+  },
+  {
+    id: "doors",
+    name: "Doors",
+    category: "Exterior & Body",
+    subtitle: "Workshop-ready doors",
+    imageUrl: "/images/product39.png",
+  },
+];
+
+const extraCuratedProductCategories = [
+  "Lubricants & Fluids",
+  "Brake System",
+  "Cooling & Climate",
+  "Visibility & Weather Care",
+  "Electrical & Ignition",
+  "Interior & Controls",
+  "Exterior & Body",
+  "Wheels & Suspension",
+  "Engine & Fuel",
+  "Transmission & Drivetrain",
+  "Safety & Accessories",
+  "Exterior Lighting",
+];
+
+const extraCuratedProductSeeds: ProductSeed[] = Array.from({ length: 36 }, (_, index) => {
+  const productNumber = index + 40;
+  const category = extraCuratedProductCategories[index % extraCuratedProductCategories.length];
+
+  return {
+    id: `product${productNumber}`,
+    name: `Product ${productNumber}`,
+    category,
+    subtitle: `Workshop-ready catalog item ${productNumber}`,
+    imageUrl: `/images/product${productNumber}.png`,
+  };
+});
+
+const allCuratedProductSeeds = [...curatedProductSeeds, ...extraCuratedProductSeeds];
+
+function buildCuratedProducts() {
+  const now = seedNow();
+
+  return allCuratedProductSeeds.map((seed, index) => ({
+    id: seed.id,
+    name: seed.name,
+    category: seed.category,
+    sku: `OBI-${String(index + 1).padStart(3, "0")}`,
+    subtitle: seed.subtitle,
+    description: `Carefully labeled spare part for the ${seed.category.toLowerCase()} collection.`,
+    imageUrl: seed.imageUrl,
+    specs: [
+      { label: "Brand", value: "Obi One Auto" },
+      { label: "Condition", value: "New replacement" },
+      { label: "Fitment", value: "OEM-style / Universal" },
+      { label: "Use", value: seed.category },
+    ],
+    benefits: [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display",
+    ],
+    featured: seed.featured ?? index < 6,
+    createdAt: now,
+    updatedAt: now,
+  }));
+}
+
+const curatedProducts = buildCuratedProducts();
+
+function isLegacyProductsCatalog(products: ProductRecord[]) {
+  return (
+    products.length <= 8 &&
+    products.some((product) => product.id === "premium-engine-oil-filter")
+  );
+}
+
+function isValidProductCatalog(products: ProductRecord[]) {
+  return products.every((product) => {
+    return (
+      typeof product.id === "string" &&
+      typeof product.name === "string" &&
+      typeof product.category === "string" &&
+      typeof product.sku === "string" &&
+      typeof product.subtitle === "string" &&
+      typeof product.description === "string" &&
+      typeof product.imageUrl === "string" &&
+      Array.isArray(product.specs) &&
+      Array.isArray(product.benefits)
+    );
+  });
+}
+
 async function ensureFile(filePath: string, seed: unknown) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
 
@@ -438,7 +815,14 @@ export async function listProjects() {
 }
 
 export async function listProducts() {
-  return readJsonFile<ProductRecord[]>(PRODUCTS_FILE, defaultProducts);
+  const products = await readJsonFile<ProductRecord[]>(PRODUCTS_FILE, defaultProducts);
+
+  if (isLegacyProductsCatalog(products) || !isValidProductCatalog(products)) {
+    await saveProducts(curatedProducts);
+    return curatedProducts;
+  }
+
+  return products;
 }
 
 export async function saveProjects(projects: ProjectRecord[]) {

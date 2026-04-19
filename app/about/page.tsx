@@ -39,13 +39,19 @@ export default function AboutPage() {
       <Navbar />
 
       <main className="bg-slate-50 text-slate-800">
-        <section className="bg-blue-900 px-4 py-14 text-white sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-6xl text-center">
+        <section className="relative overflow-hidden px-4 py-20 text-white sm:px-6 lg:px-8">
+          <img
+            src="/images/hero.png"
+            alt="Construction services background"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-blue-950/70" />
+          <div className="relative mx-auto max-w-6xl text-center">
             <motion.h1
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-3xl font-bold sm:text-4xl"
+              className="text-4xl font-bold"
             >
               Building Excellence Since 2002
             </motion.h1>
@@ -56,7 +62,7 @@ export default function AboutPage() {
               className="mx-auto mt-4 max-w-2xl text-sm text-blue-100 sm:text-base"
             >
               Pioneering construction solutions and premium trading services
-              across Accra and beyond.
+              across Accra and beyond..
             </motion.p>
           </div>
         </section>

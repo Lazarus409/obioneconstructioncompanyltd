@@ -1,290 +1,1961 @@
 [
   {
-    "id": "premium-engine-oil-filter",
-    "name": "Premium Engine Oil Filter",
-    "category": "Oil Filters",
-    "sku": "OIL-FILTER-001",
-    "subtitle": "Universal fit for common passenger vehicles",
-    "description": "High-performance oil filter designed for optimal engine protection and extended oil life.",
-    "imageUrl": "/images/product1.png",
-    "specs": [
-      {
-        "label": "Brand",
-        "value": "Obi One Premium"
-      },
-      {
-        "label": "Filter Type",
-        "value": "Spin-On"
-      },
-      {
-        "label": "Dimensions",
-        "value": "3.5\" x 5.0\" (D)"
-      },
-      {
-        "label": "Weight",
-        "value": "0.5 lbs"
-      }
-    ],
-    "benefits": [
-      "High-efficiency filtration media captures fine particles",
-      "Heavy-duty construction withstands high pressure",
-      "Anti-drain back valve prevents dry starts",
-      "Meets or exceeds OEM specifications"
-    ],
-    "featured": true,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
-  },
-  {
-    "id": "brake-pads-set",
-    "name": "Brake Pads Set",
-    "category": "Brake Pads",
-    "sku": "BRAKE-PAD-201",
-    "subtitle": "Front axle replacement set",
-    "description": "Dependable brake pad set engineered for responsive braking, quiet performance, and longer wear.",
-    "imageUrl": "/images/product2.png",
+    "id": "engine-oil",
+    "name": "Engine Oil",
+    "category": "Lubricants & Fluids",
+    "sku": "OBI-001",
+    "subtitle": "Routine service essential",
+    "description": "Carefully labeled spare part for the lubricants & fluids collection.",
+    "imageUrl": "/images/product3.png",
     "specs": [
       {
         "label": "Brand",
         "value": "Obi One Auto"
       },
       {
-        "label": "Material",
-        "value": "Ceramic Composite"
+        "label": "Condition",
+        "value": "New replacement"
       },
       {
-        "label": "Placement",
-        "value": "Front Axle"
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
       },
       {
-        "label": "Noise Level",
-        "value": "Low Dust / Low Noise"
+        "label": "Use",
+        "value": "Lubricants & Fluids"
       }
     ],
     "benefits": [
-      "Smooth and consistent stopping power",
-      "Reduced brake dust for cleaner wheels",
-      "Heat-resistant compound for durability",
-      "OEM-style fitment for easy replacement"
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
     ],
     "featured": true,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
-    "id": "all-season-tire",
-    "name": "All Season Tire",
-    "category": "Tires",
-    "sku": "TIRE-225-6517",
-    "subtitle": "225/65R17 premium road grip",
-    "description": "Balanced all-season tire with reliable traction, reinforced sidewalls, and confident handling across wet and dry roads.",
-    "imageUrl": "/images/product3.png",
-    "specs": [
-      {
-        "label": "Size",
-        "value": "225/65R17"
-      },
-      {
-        "label": "Season",
-        "value": "All Season"
-      },
-      {
-        "label": "Load Index",
-        "value": "102H"
-      },
-      {
-        "label": "Warranty",
-        "value": "50,000 miles"
-      }
-    ],
-    "benefits": [
-      "Confident traction on varied road surfaces",
-      "Optimized tread pattern for reduced road noise",
-      "Improved cornering stability",
-      "Long-lasting compound for daily use"
-    ],
-    "featured": true,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
-  },
-  {
-    "id": "car-battery",
-    "name": "Car Battery",
-    "category": "Car Batteries",
-    "sku": "BATTERY-12V-88",
-    "subtitle": "12V maintenance free",
-    "description": "Reliable maintenance-free battery built for strong starts, stable power delivery, and dependable performance.",
+    "id": "brake-fluids",
+    "name": "Brake Fluids",
+    "category": "Lubricants & Fluids",
+    "sku": "OBI-002",
+    "subtitle": "Hydraulic fluid for braking systems",
+    "description": "Carefully labeled spare part for the lubricants & fluids collection.",
     "imageUrl": "/images/product4.png",
     "specs": [
       {
-        "label": "Voltage",
-        "value": "12V"
+        "label": "Brand",
+        "value": "Obi One Auto"
       },
       {
-        "label": "Battery Type",
-        "value": "Maintenance Free"
+        "label": "Condition",
+        "value": "New replacement"
       },
       {
-        "label": "Reserve Capacity",
-        "value": "90 minutes"
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
       },
       {
-        "label": "Cold Cranking Amps",
-        "value": "650 CCA"
+        "label": "Use",
+        "value": "Lubricants & Fluids"
       }
     ],
     "benefits": [
-      "Consistent starting power in all conditions",
-      "Maintenance-free sealed design",
-      "Vibration-resistant internal build",
-      "Dependable reserve capacity for accessories"
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
     ],
-    "featured": false,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
+    "featured": true,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
-    "id": "shock-absorber",
-    "name": "Shock Absorber",
-    "category": "Shock Absorbers",
-    "sku": "SHOCK-ABS-115",
-    "subtitle": "Front suspension heavy duty",
-    "description": "Heavy-duty shock absorber designed to improve ride comfort, cornering stability, and suspension control.",
-    "imageUrl": "/images/product2.png",
+    "id": "gear-oils",
+    "name": "Gear Oils",
+    "category": "Lubricants & Fluids",
+    "sku": "OBI-003",
+    "subtitle": "Workshop-ready gear oils",
+    "description": "Carefully labeled spare part for the lubricants & fluids collection.",
+    "imageUrl": "/images/product5.png",
     "specs": [
       {
         "label": "Brand",
-        "value": "Obi One Suspension"
+        "value": "Obi One Auto"
       },
       {
-        "label": "Position",
-        "value": "Front"
-      },
-      {
-        "label": "Material",
-        "value": "Hardened Steel"
+        "label": "Condition",
+        "value": "New replacement"
       },
       {
         "label": "Fitment",
-        "value": "Universal Heavy Duty"
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Lubricants & Fluids"
       }
     ],
     "benefits": [
-      "Improves ride comfort and control",
-      "Reduces vibration on uneven roads",
-      "Built for heavy-duty use",
-      "Reliable long-term performance"
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
     ],
-    "featured": false,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
+    "featured": true,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
-    "id": "headlight-assembly",
-    "name": "Headlight Assembly",
-    "category": "Light Bulbs",
-    "sku": "HEADLIGHT-310",
-    "subtitle": "LED projector replacement",
-    "description": "Complete headlight assembly with bright projector output and durable housing for improved visibility.",
-    "imageUrl": "/images/product1.png",
+    "id": "sealant",
+    "name": "Sealant",
+    "category": "Lubricants & Fluids",
+    "sku": "OBI-004",
+    "subtitle": "Workshop-ready sealant",
+    "description": "Carefully labeled spare part for the lubricants & fluids collection.",
+    "imageUrl": "/images/product6.png",
     "specs": [
       {
-        "label": "Type",
-        "value": "LED Projector"
+        "label": "Brand",
+        "value": "Obi One Auto"
       },
       {
-        "label": "Lens",
-        "value": "Clear Polycarbonate"
-      },
-      {
-        "label": "Housing",
-        "value": "Weather Sealed"
+        "label": "Condition",
+        "value": "New replacement"
       },
       {
         "label": "Fitment",
-        "value": "OEM Style Replacement"
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Lubricants & Fluids"
       }
     ],
     "benefits": [
-      "Bright and focused beam pattern",
-      "Durable weather-resistant housing",
-      "Improves night-time visibility",
-      "Easy OEM-style replacement"
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": true,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "wiper-blades",
+    "name": "Wiper Blades",
+    "category": "Visibility & Weather Care",
+    "sku": "OBI-005",
+    "subtitle": "Workshop-ready wiper blades",
+    "description": "Carefully labeled spare part for the visibility & weather care collection.",
+    "imageUrl": "/images/product8.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Visibility & Weather Care"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": true,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "speakers",
+    "name": "Speakers",
+    "category": "Interior & Audio",
+    "sku": "OBI-006",
+    "subtitle": "Workshop-ready speakers",
+    "description": "Carefully labeled spare part for the interior & audio collection.",
+    "imageUrl": "/images/product7.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Interior & Audio"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": true,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "air-condition-motors",
+    "name": "Air-Condition Motors",
+    "category": "Cooling & Climate",
+    "sku": "OBI-007",
+    "subtitle": "Workshop-ready air-condition motors",
+    "description": "Carefully labeled spare part for the cooling & climate collection.",
+    "imageUrl": "/images/product10.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Cooling & Climate"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
     ],
     "featured": false,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "master-cylinder",
+    "name": "Master Cylinder",
+    "category": "Brake System",
+    "sku": "OBI-008",
+    "subtitle": "Workshop-ready master cylinder",
+    "description": "Carefully labeled spare part for the brake system collection.",
+    "imageUrl": "/images/product11.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Brake System"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+
+  {
+    "id": "water-hoses",
+    "name": "Water Hoses",
+    "category": "Cooling & Climate",
+    "sku": "OBI-010",
+    "subtitle": "Workshop-ready water hoses",
+    "description": "Carefully labeled spare part for the cooling & climate collection.",
+    "imageUrl": "/images/product12.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Cooling & Climate"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "Fuel pumps",
+    "name": "Fuel pumps",
+    "category": "Engine & Fuel",
+    "sku": "OBI-011",
+    "subtitle": "Workshop-ready fuel pumps",
+    "description": "Carefully labeled spare part for the engine & fuel collection.",
+    "imageUrl": "/images/product13.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Visibility & Weather Care"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "clutch-pedal",
+    "name": "Clutch Pedal",
+    "category": "Transmission & Drivetrain",
+    "sku": "OBI-012",
+    "subtitle": "Workshop-ready clutch pedal",
+    "description": "Carefully labeled spare part for the transmission & drivetrain collection.",
+    "imageUrl": "/images/product14.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Transmission & Drivetrain"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "Wiper motors",
+    "name": "Wiper Motors",
+    "category": "Visibility & Weather Care",
+    "sku": "OBI-013",
+    "subtitle": "Workshop-ready wiper motors",
+    "description": "Carefully labeled spare part for the visibility & weather care collection.",
+    "imageUrl": "/images/product15.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Visibility & Weather Care"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
     "id": "alternator",
     "name": "Alternator",
-    "category": "Alternators",
-    "sku": "ALT-120A-442",
-    "subtitle": "120A output for modern systems",
-    "description": "High-output alternator engineered for stable charging performance and reliable power supply.",
-    "imageUrl": "/images/product4.png",
+    "category": "Electrical & Ignition",
+    "sku": "OBI-014",
+    "subtitle": "Reliable charging component",
+    "description": "Carefully labeled spare part for the electrical & ignition collection.",
+    "imageUrl": "/images/product16.png",
     "specs": [
       {
-        "label": "Output",
-        "value": "120A"
+        "label": "Brand",
+        "value": "Obi One Auto"
       },
       {
-        "label": "Voltage",
-        "value": "12V"
+        "label": "Condition",
+        "value": "New replacement"
       },
       {
-        "label": "Pulley",
-        "value": "OEM Standard"
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
       },
       {
-        "label": "Cooling",
-        "value": "Internal Fan"
+        "label": "Use",
+        "value": "Electrical & Ignition"
       }
     ],
     "benefits": [
-      "Stable charging under load",
-      "Supports modern electrical systems",
-      "Durable internal components",
-      "Long service life"
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
     ],
     "featured": false,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
-    "id": "brake-rotor",
-    "name": "Brake Rotor",
-    "category": "Brake Rotors",
-    "sku": "ROTOR-FRT-220",
-    "subtitle": "Ventilated front axle rotor",
-    "description": "Ventilated brake rotor built for strong heat dissipation and dependable braking performance under daily use.",
-    "imageUrl": "/images/product3.png",
+    "id": "Starter motors",
+    "name": "Starter motors",
+    "category": "Electrical & Ignition",
+    "sku": "OBI-015",
+    "subtitle": "Workshop-ready starters",
+    "description": "Carefully labeled spare part for the electrical & ignition collection.",
+    "imageUrl": "/images/product17.png",
     "specs": [
       {
-        "label": "Type",
-        "value": "Ventilated Rotor"
+        "label": "Brand",
+        "value": "Obi One Auto"
       },
       {
-        "label": "Placement",
-        "value": "Front Axle"
+        "label": "Condition",
+        "value": "New replacement"
       },
       {
-        "label": "Finish",
-        "value": "Anti-Corrosion Coated"
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
       },
       {
-        "label": "Material",
-        "value": "High Carbon Steel"
+        "label": "Use",
+        "value": "Electrical & Ignition"
       }
     ],
     "benefits": [
-      "Better heat dissipation",
-      "Consistent braking feel",
-      "Reduced risk of brake fade",
-      "Durable corrosion-resistant finish"
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
     ],
     "featured": false,
-    "createdAt": "2026-04-11T14:27:16.202Z",
-    "updatedAt": "2026-04-11T14:27:16.202Z"
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "abs-motor-hydraulic-pump",
+    "name": "ABS Motor / Hydraulic Pump",
+    "category": "Brake System",
+    "sku": "OBI-016",
+    "subtitle": "Workshop-ready ABS motor / hydraulic pump",
+    "description": "Carefully labeled spare part for the brake system collection.",
+    "imageUrl": "/images/product19.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Brake System"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "Brake master cylinders",
+    "name": "Brake Master Cylinders",
+    "category": "Brake System",
+    "sku": "OBI-017",
+    "subtitle": "Workshop-ready brake master cylinders",
+    "description": "Carefully labeled spare part for the brake system collection.",
+    "imageUrl": "/images/product18.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Brake System"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "water-reservoir",
+    "name": "Water Reservoir",
+    "category": "Cooling & Climate",
+    "sku": "OBI-018",
+    "subtitle": "Workshop-ready water reservoir",
+    "description": "Carefully labeled spare part for the cooling & climate collection.",
+    "imageUrl": "/images/product21.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Cooling & Climate"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "ABS, brake boosters",
+    "name": "ABS, Brake Boosters",
+    "category": "Brake System",
+    "sku": "OBI-019",
+    "subtitle": "Workshop-ready ABS, brake boosters",
+    "description": "Carefully labeled spare part for the brake system collection.",
+    "imageUrl": "/images/product20.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Brake System"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "cooling-fan",
+    "name": "Cooling Fan",
+    "category": "Cooling & Climate",
+    "sku": "OBI-020",
+    "subtitle": "Workshop-ready cooling fan",
+    "description": "Carefully labeled spare part for the cooling & climate collection.",
+    "imageUrl": "/images/product23.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Cooling & Climate"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "springs",
+    "name": "Springs",
+    "category": "Wheels & Suspension",
+    "sku": "OBI-021",
+    "subtitle": "Workshop-ready springs",
+    "description": "Carefully labeled spare part for the wheels & suspension collection.",
+    "imageUrl": "/images/product25.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Wheels & Suspension"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "rims",
+    "name": "Rims",
+    "category": "Wheels & Suspension",
+    "sku": "OBI-022",
+    "subtitle": "Workshop-ready rims",
+    "description": "Carefully labeled spare part for the wheels & suspension collection.",
+    "imageUrl": "/images/product27.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Wheels & Suspension"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "steering-wheels",
+    "name": "Steering Wheels",
+    "category": "Interior & Controls",
+    "sku": "OBI-023",
+    "subtitle": "Workshop-ready steering wheels",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product26.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Interior & Controls"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "side-mirrors",
+    "name": "Side Mirrors",
+    "category": "Exterior & Body",
+    "sku": "OBI-024",
+    "subtitle": "Workshop-ready side mirrors",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product30.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "gear-lever",
+    "name": "Gear Lever",
+    "category": "Transmission & Drivetrain",
+    "sku": "OBI-025",
+    "subtitle": "Workshop-ready gear lever",
+    "description": "Carefully labeled spare part for the transmission & drivetrain collection.",
+    "imageUrl": "/images/product35.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Transmission & Drivetrain"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "tail-lights",
+    "name": "Tail Lights",
+    "category": "Exterior Lighting",
+    "sku": "OBI-026",
+    "subtitle": "Workshop-ready tail lights",
+    "description": "Carefully labeled spare part for the exterior lighting collection.",
+    "imageUrl": "/images/product33.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior Lighting"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "head-light",
+    "name": "Head Light",
+    "category": "Exterior Lighting",
+    "sku": "OBI-027",
+    "subtitle": "Workshop-ready head light",
+    "description": "Carefully labeled spare part for the exterior lighting collection.",
+    "imageUrl": "/images/product36.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior Lighting"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "speedometer-panel",
+    "name": "Speedometer Panel",
+    "category": "Interior & Controls",
+    "sku": "OBI-028",
+    "subtitle": "Workshop-ready speedometer panel",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product38.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Interior & Controls"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "car-tapes",
+    "name": "Car Tapes",
+    "category": "Interior & Audio",
+    "sku": "OBI-029",
+    "subtitle": "Workshop-ready car tapes",
+    "description": "Carefully labeled spare part for the interior & audio collection.",
+    "imageUrl": "/images/product40.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Interior & Audio"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "door-switch",
+    "name": "Door Switch",
+    "category": "Interior & Controls",
+    "sku": "OBI-030",
+    "subtitle": "Workshop-ready door switch",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product39.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Interior & Controls"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "e-nets",
+    "name": "E-Nets",
+    "category": "Safety & Accessories",
+    "sku": "OBI-031",
+    "subtitle": "Workshop-ready e-nets",
+    "description": "Carefully labeled spare part for the safety & accessories collection.",
+    "imageUrl": "/images/product41.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Safety & Accessories"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "air-conditioning-condenser-hoses",
+    "name": "Air Conditioning and Condenser Hoses",
+    "category": "Cooling & Climate",
+    "sku": "OBI-032",
+    "subtitle": "Workshop-ready air conditioning and condenser hoses",
+    "description": "Carefully labeled spare part for the cooling & climate collection.",
+    "imageUrl": "/images/product43.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Cooling & Climate"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "pressure-plates",
+    "name": "Pressure Plates",
+    "category": "Transmission & Drivetrain",
+    "sku": "OBI-033",
+    "subtitle": "Workshop-ready pressure plates",
+    "description": "Carefully labeled spare part for the transmission & drivetrain collection.",
+    "imageUrl": "/images/product48.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Transmission & Drivetrain"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "wheel-covers",
+    "name": "Wheel Covers",
+    "category": "Wheels & Suspension",
+    "sku": "OBI-034",
+    "subtitle": "Workshop-ready wheel covers",
+    "description": "Carefully labeled spare part for the wheels & suspension collection.",
+    "imageUrl": "/images/product49.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Wheels & Suspension"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "front-cart",
+    "name": "Front Cart",
+    "category": "Exterior & Body",
+    "sku": "OBI-035",
+    "subtitle": "Workshop-ready front cart",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product58.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "bumper",
+    "name": "Bumper",
+    "category": "Exterior & Body",
+    "sku": "OBI-036",
+    "subtitle": "Workshop-ready bumper",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product55.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "front-shields",
+    "name": "Front Shields",
+    "category": "Exterior & Body",
+    "sku": "OBI-037",
+    "subtitle": "Workshop-ready front shields",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product61.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "fenders",
+    "name": "Fenders",
+    "category": "Exterior & Body",
+    "sku": "OBI-038",
+    "subtitle": "Workshop-ready fenders",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product57.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "doors",
+    "name": "Doors",
+    "category": "Exterior & Body",
+    "sku": "OBI-039",
+    "subtitle": "Workshop-ready doors",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product62.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+
+  {
+    "id": "Bolt and Nuts",
+    "name": "Bolt and Nuts",
+    "category": "Safety & Accessories",
+    "sku": "OBI-050",
+    "subtitle": "Workshop-ready catalog item 50",
+    "description": "Carefully labeled spare part for the safety & accessories collection.",
+    "imageUrl": "/images/product50.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Safety & Accessories"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+
+  {
+    "id": "product52",
+    "name": "coolant reservoir caps",
+    "category": "Lubricants & Fluids",
+    "sku": "OBI-052",
+    "subtitle": "Workshop-ready coolant reservoir caps",
+    "description": "Carefully labeled spare part for the lubricants & fluids collection.",
+    "imageUrl": "/images/product52.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Lubricants & Fluids"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "product54",
+    "name": "Spanners & Wrenches",
+    "category": "tools",
+    "sku": "OBI-053",
+    "subtitle": "Workshop-ready spanners & wrenches",
+    "description": "Carefully labeled spare part for the tools collection.",
+    "imageUrl": "/images/product53.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Brake System"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+
+  {
+    "id": "product55",
+    "name": "Front bumpers",
+    "category": "Visibility & Weather Care",
+    "sku": "OBI-055",
+    "subtitle": "Workshop-ready Front bumpers",
+    "description": "Carefully labeled spare part for the visibility & weather care collection.",
+    "imageUrl": "/images/product55.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Visibility & Weather Care"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+
+  {
+    "id": "product63",
+    "name": "car engines/automotive engines",
+    "category": "Interior & Controls",
+    "sku": "OBI-063",
+    "subtitle": "Workshop-ready catalog item 63",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product63.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior Lighting"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "product64",
+    "name": "car engines/automotive engines",
+    "category": "Interior & Controls",
+    "sku": "OBI-064",
+    "subtitle": "Workshop-ready catalog item 64",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product64.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Lubricants & Fluids"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "product65",
+    "name": "Tires",
+    "category": "Exterior & Body",
+    "sku": "OBI-065",
+    "subtitle": "Workshop-ready catalog item 65",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product65.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "product66",
+    "name": "Tires",
+    "category": "Exterior & Body",
+    "sku": "OBI-066",
+    "subtitle": "Workshop-ready catalog item 66",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product66.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "product67",
+    "name": "car engines/automotive engines",
+    "category": "Interior & Controls",
+    "sku": "OBI-067",
+    "subtitle": "Workshop-ready catalog item 67",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product67.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Visibility & Weather Care"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "product69",
+    "name": "car engines/automotive engines",
+    "category": "Interior & Controls",
+    "sku": "OBI-069",
+    "subtitle": "Workshop-ready catalog item 69",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product69.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Interior & Controls"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "product72",
+    "name": "automotive bumpers",
+    "category": "Exterior & Body",
+    "sku": "OBI-072",
+    "subtitle": "Workshop-ready catalog item 72",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product72.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+
+  {
+    "id": "product74",
+    "name": "automotive mufflers and exhaust pipes",
+    "category": "Interior & Controls",
+    "sku": "OBI-074",
+    "subtitle": "Workshop-ready catalog item 74",
+    "description": "Carefully labeled spare part for the interior & controls collection.",
+    "imageUrl": "/images/product74.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Interior & Controls"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+
+  {
+    "id": "video5",
+    "name": "Product Video",
+    "category": "Product Videos",
+    "sku": "VID-005",
+    "subtitle": "Short product clip",
+    "description": "Product demo video  for the catalog.",
+    "imageUrl": "/images/product5.png",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video5.mp4",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Format",
+        "value": "MP4"
+      },
+      {
+        "label": "Use",
+        "value": "Product Videos"
+      },
+      {
+        "label": "Duration",
+        "value": "Short clip"
+      }
+    ],
+    "benefits": [
+      "Shows the product in motion",
+      "Helps shoppers review details faster",
+      "Works as a self-hosted MP4 demo",
+      "Fits into the existing catalog layout"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "video6",
+    "name": "Product Video ",
+    "category": "Product Videos",
+    "sku": "VID-006",
+    "subtitle": "Short product clip ",
+    "description": "Product demo video  for the catalog.",
+    "imageUrl": "/images/product6.png",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video6.mp4",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Format",
+        "value": "MP4"
+      },
+      {
+        "label": "Use",
+        "value": "Product Videos"
+      },
+      {
+        "label": "Duration",
+        "value": "Short clip"
+      }
+    ],
+    "benefits": [
+      "Shows the product in motion",
+      "Helps shoppers review details faster",
+      "Works as a self-hosted MP4 demo",
+      "Fits into the existing catalog layout"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "video7",
+    "name": "Product Video ",
+    "category": "Product Videos",
+    "sku": "VID-007",
+    "subtitle": "Short product clip ",
+    "description": "Product demo video  for the catalog.",
+    "imageUrl": "/images/product7.png",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video7.mp4",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Format",
+        "value": "MP4"
+      },
+      {
+        "label": "Use",
+        "value": "Product Videos"
+      },
+      {
+        "label": "Duration",
+        "value": "Short clip"
+      }
+    ],
+    "benefits": [
+      "Shows the product in motion",
+      "Helps shoppers review details faster",
+      "Works as a self-hosted MP4 demo",
+      "Fits into the existing catalog layout"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "video8",
+    "name": "Product Video ",
+    "category": "Product Videos",
+    "sku": "VID-008",
+    "subtitle": "Short product clip ",
+    "description": "Product demo video  for the catalog.",
+    "imageUrl": "/images/product8.png",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video8.mp4",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Format",
+        "value": "MP4"
+      },
+      {
+        "label": "Use",
+        "value": "Product Videos"
+      },
+      {
+        "label": "Duration",
+        "value": "Short clip"
+      }
+    ],
+    "benefits": [
+      "Shows the product in motion",
+      "Helps shoppers review details faster",
+      "Works as a self-hosted MP4 demo",
+      "Fits into the existing catalog layout"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
   }
 ]

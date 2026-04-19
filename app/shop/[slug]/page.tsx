@@ -20,7 +20,14 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     notFound();
   }
 
+  const specs = Array.isArray(product.specs) ? product.specs : [];
+  const benefits = Array.isArray(product.benefits) ? product.benefits : [];
+
   const isOilFilter = product.id === "premium-engine-oil-filter";
+  const videoSrc = product.id.startsWith("video")
+    ? `/videos/${product.id}.mp4`
+    : undefined;
+  const isVideoProduct = Boolean(videoSrc);
   const related = products.filter((item) => item.id !== product.id).slice(0, 4);
 
   return (
@@ -33,11 +40,24 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
             <div className="grid gap-10 lg:grid-cols-[1fr_1.15fr]">
               <div className="rounded-2xl bg-white p-4 shadow-[0_12px_28px_rgba(15,23,42,0.08)]">
                 <div className="overflow-hidden rounded-2xl">
-                  <img
-                    src={product.imageUrl}
-                    alt={product.name}
-                    className="h-full w-full object-cover"
-                  />
+                  {isVideoProduct ? (
+                    <video
+                      src={videoSrc}
+                      poster={product.imageUrl}
+                      className="h-full w-full object-cover"
+                      controls
+                      playsInline
+                      preload="metadata"
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  ) : (
+                    <img
+                      src={product.imageUrl}
+                      alt={product.name}
+                      className="h-full w-full object-cover"
+                    />
+                  )}
                 </div>
               </div>
 
@@ -69,17 +89,25 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                     Product Specifications
                   </h2>
                   <div className="mt-4 space-y-3">
-                    {product.specs.map((spec) => (
+                    {specs.length > 0 ? (
+                      specs.map((spec) => (
+                        <div
+                          key={spec.label}
+                          className="flex flex-col justify-between gap-2 border-b border-slate-100 py-2 text-sm sm:flex-row"
+                        >
+                          <span className="font-medium text-slate-600">
+                            {spec.label}
+                          </span>
+                          <span className="text-slate-900">{spec.value}</span>
+                        </div>
+                      ))
+                    ) : (
                       <div
-                        key={spec.label}
-                        className="flex flex-col justify-between gap-2 border-b border-slate-100 py-2 text-sm sm:flex-row"
+                        className="rounded-xl border border-dashed border-slate-200 px-4 py-5 text-sm text-slate-500"
                       >
-                        <span className="font-medium text-slate-600">
-                          {spec.label}
-                        </span>
-                        <span className="text-slate-900">{spec.value}</span>
+                        Specifications are not available for this item yet.
                       </div>
-                    ))}
+                    )}
                   </div>
                 </div>
 
@@ -88,12 +116,18 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                     Why Choose This Part?
                   </h2>
                   <div className="mt-4 space-y-3">
-                    {product.benefits.map((benefit) => (
-                      <div key={benefit} className="flex gap-3 text-sm text-slate-600">
-                        <span className="mt-1 h-2 w-2 rounded-full bg-blue-800" />
-                        <p>{benefit}</p>
-                      </div>
-                    ))}
+                    {benefits.length > 0 ? (
+                      benefits.map((benefit) => (
+                        <div key={benefit} className="flex gap-3 text-sm text-slate-600">
+                          <span className="mt-1 h-2 w-2 rounded-full bg-blue-800" />
+                          <p>{benefit}</p>
+                        </div>
+                      ))
+                    ) : (
+                      <p className="text-sm text-slate-500">
+                        Benefits will be added soon for this item.
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>

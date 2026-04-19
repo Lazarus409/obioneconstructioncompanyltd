@@ -49,7 +49,8 @@ export default function ShopCatalog({ products }: ShopCatalogProps) {
     });
   }, [activeCategory, deferredSearchTerm, products]);
 
-  const hasActiveFilters = searchTerm.trim().length > 0 || activeCategory !== "All";
+  const hasActiveFilters =
+    searchTerm.trim().length > 0 || activeCategory !== "All";
 
   const clearFilters = () => {
     setSearchTerm("");
@@ -87,14 +88,6 @@ export default function ShopCatalog({ products }: ShopCatalogProps) {
                 );
               })}
             </div>
-          </div>
-
-          <div>
-            <h3 className="text-sm font-semibold text-slate-900">Collection note</h3>
-            <p className="mt-3 text-sm leading-7 text-slate-500">
-              The shop is now content-managed. Admin changes to products will appear here
-              automatically.
-            </p>
           </div>
         </div>
       </aside>
@@ -164,16 +157,21 @@ export default function ShopCatalog({ products }: ShopCatalogProps) {
                   <h3 className="mt-1 text-[13px] font-semibold text-slate-900">
                     {product.name}
                   </h3>
-                  <p className="mt-1 text-[10px] text-slate-500">{product.subtitle}</p>
+                  <p className="mt-1 text-[10px] text-slate-500">
+                    {product.subtitle}
+                  </p>
                 </Link>
               </motion.div>
             ))}
           </div>
         ) : (
           <div className="mt-8 rounded-2xl border border-dashed border-slate-200 bg-white px-6 py-16 text-center">
-            <p className="text-lg font-semibold text-slate-900">No products match your filters.</p>
+            <p className="text-lg font-semibold text-slate-900">
+              No products match your filters.
+            </p>
             <p className="mt-2 text-sm text-slate-500">
-              Try a different keyword or clear the category filter to see the full catalog.
+              Try a different keyword or clear the category filter to see the
+              full catalog.
             </p>
             <button
               type="button"
@@ -188,4 +186,3 @@ export default function ShopCatalog({ products }: ShopCatalogProps) {
     </div>
   );
 }
-

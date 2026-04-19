@@ -38,8 +38,14 @@ export default function ContactPage() {
       <Navbar />
 
       <main className="bg-slate-50 text-slate-800">
-        <section className="bg-blue-900 px-4 py-16 text-white sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-6xl text-center">
+        <section className="relative overflow-hidden px-4 py-20 text-white sm:px-6 lg:px-8">
+          <img
+            src="/images/hero.png"
+            alt="Construction services background"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-blue-950/70" />
+          <div className="relative mx-auto max-w-6xl text-center">
             <motion.h1
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
@@ -54,7 +60,10 @@ export default function ContactPage() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="mx-auto mt-4 max-w-2xl text-sm text-blue-100 sm:text-base"
             >
-              We&apos;re here to help with your construction and trading needs.
+              We're here to help with your construction and trading needs. Reach
+              out to us for consultations, project discussions, or any inquiries
+              you may have. Our team is ready to assist you in bringing your
+              vision to life.
             </motion.p>
           </div>
         </section>
@@ -108,7 +117,7 @@ export default function ContactPage() {
                   </div>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.25 }}
@@ -132,7 +141,7 @@ export default function ContactPage() {
                   <p className="mt-3 text-center text-xs text-slate-400">
                     Available Monday-Friday, 8am-5pm GMT
                   </p>
-                </motion.div>
+                </motion.div> */}
               </div>
 
               <motion.div

@@ -1,9 +1,9 @@
 [
   {
     "id": "project-12",
-    "title": "Commercial Facade Upgrade",
-    "category": "Bogla Proof Works",
-    "description": "Modern frontage work with clean finishes and upgraded visual appeal.",
+    "title": "Electrical Panel Upgrade",
+    "category": "Electrical Works",
+    "description": "Clean panel installation and final wiring alignment for the electrical finish.",
     "mediaType": "image",
     "mediaUrl": "/images/project12.png",
     "featured": false,
@@ -149,6 +149,74 @@
     "description": "Completed work showcasing the finished exterior look.",
     "mediaType": "image",
     "mediaUrl": "/images/project11.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+
+  {
+    "id": "project-14",
+    "title": "Lighting Circuit Layout",
+    "category": "Electrical Works",
+    "description": "Lighting layout and wiring detail for the finished rooms.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project14.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-15",
+    "title": "Cable Pulling Run",
+    "category": "Electrical Works",
+    "description": "Cable pulling and conduit routing across the site.",
+    "mediaType": "image",
+    "mediaUrl": "/images/project15.png",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+
+  {
+    "id": "project-9-video",
+    "title": "Final Power Test",
+    "category": "Electrical Works",
+    "description": "Testing sequence for the completed electrical setup.",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video9.mp4",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-10-video",
+    "title": "Distribution Board Setup",
+    "category": "Electrical Works",
+    "description": "Distribution board assembly and finishing details.",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video10.mp4",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-11-video",
+    "title": "Site Lighting Review",
+    "category": "Electrical Works",
+    "description": "Review footage of the installed lighting sequence.",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video11.mp4",
+    "featured": false,
+    "createdAt": "2026-04-11T14:27:16.202Z",
+    "updatedAt": "2026-04-11T14:27:16.202Z"
+  },
+  {
+    "id": "project-12-video",
+    "title": "Handover Walkthrough",
+    "category": "Electrical Works",
+    "description": "Final walkthrough showing the finished electrical work.",
+    "mediaType": "video",
+    "mediaUrl": "/videos/video12.mp4",
     "featured": false,
     "createdAt": "2026-04-11T14:27:16.202Z",
     "updatedAt": "2026-04-11T14:27:16.202Z"

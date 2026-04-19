@@ -13,7 +13,7 @@ export default function Footer() {
             Providing quality construction services and genuine car spare parts
             since 2002.
           </p>
-          <div className="mt-4 flex items-center gap-3 text-slate-400">
+          {/* <div className="mt-4 flex items-center gap-3 text-slate-400">
             <a
               href="#"
               aria-label="Facebook"
@@ -35,7 +35,7 @@ export default function Footer() {
             >
               in
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div>
@@ -47,10 +47,16 @@ export default function Footer() {
             <Link href="/about" className="block transition hover:text-white">
               About Us
             </Link>
-            <Link href="/services" className="block transition hover:text-white">
+            <Link
+              href="/services"
+              className="block transition hover:text-white"
+            >
               Services
             </Link>
-            <Link href="/projects" className="block transition hover:text-white">
+            <Link
+              href="/projects"
+              className="block transition hover:text-white"
+            >
               Projects
             </Link>
             <Link href="/shop" className="block transition hover:text-white">

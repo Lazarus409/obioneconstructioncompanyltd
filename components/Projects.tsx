@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import type { ProjectRecord } from "@/lib/content-store";
+import { Link } from "lucide-react";
 
 type ProjectsProps = {
   projects: ProjectRecord[];
@@ -15,7 +16,8 @@ export default function Projects({ projects }: ProjectsProps) {
           Our Projects
         </h2>
         <p className="mx-auto mb-10 max-w-2xl text-center text-sm text-slate-500">
-          A few recent project highlights pulled directly from the admin-managed content.
+          A few recent project highlights pulled directly from the admin-managed
+          content.
         </p>
 
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">

@@ -5,12 +5,13 @@ import AboutCompany from "@/components/AboutCompany";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import ProjectsGallery from "@/components/ProjectsGallery";
-import FeaturedProducts from "@/components/FeaturedProducts";
+import Products from "@/components/Products";
 import CallToAction from "@/components/CallToAction";
 import { listProducts, listProjects } from "@/lib/content-store";
 import Footer from "@/components/Footer";
 
 const BOGLA_PROOF_CATEGORY = "Bogla Proof Works";
+const ELECTRICAL_WORKS_CATEGORY = "Electrical Works";
 
 export default async function Home() {
   await connection();
@@ -22,14 +23,21 @@ export default async function Home() {
   const boglaProofWorks = projects.filter(
     (project) => project.category === BOGLA_PROOF_CATEGORY,
   );
+  const electricalWorks = projects.filter(
+    (project) => project.category === ELECTRICAL_WORKS_CATEGORY,
+  );
   const featuredProjects = [
     ...projects.filter(
       (project) =>
-        project.featured && project.category !== BOGLA_PROOF_CATEGORY,
+        project.featured &&
+        project.category !== BOGLA_PROOF_CATEGORY &&
+        project.category !== ELECTRICAL_WORKS_CATEGORY,
     ),
     ...projects.filter(
       (project) =>
-        !project.featured && project.category !== BOGLA_PROOF_CATEGORY,
+        !project.featured &&
+        project.category !== BOGLA_PROOF_CATEGORY &&
+        project.category !== ELECTRICAL_WORKS_CATEGORY,
     ),
   ].slice(0, 4);
 
@@ -58,9 +66,25 @@ export default async function Home() {
           <ProjectsGallery projects={boglaProofWorks} />
         </div>
       </section>
-      <FeaturedProducts
-        products={products.filter((product) => product.featured).slice(0, 4)}
-      />
+      <section
+        id="electrical-works"
+        className="bg-white px-4 py-16 sm:px-6 lg:px-8"
+      >
+        <div className="mx-auto max-w-6xl">
+          <div className="mx-auto mb-10 max-w-3xl text-center">
+            <h2 className="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">
+              Electrical Works
+            </h2>
+            <p className="mt-4 text-sm leading-6 text-slate-500 sm:text-base">
+              Electrical installation, wiring, and finishing updates from the electrical
+              works collection.
+            </p>
+          </div>
+
+          <ProjectsGallery projects={electricalWorks} />
+        </div>
+      </section>
+      <Products products={products} />
       <CallToAction />
       <Footer />
     </>
