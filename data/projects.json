@@ -1,16 +1,5 @@
 [
   {
-    "id": "project-12",
-    "title": "Electrical Panel Upgrade",
-    "category": "Electrical Works",
-    "description": "Clean panel installation and final wiring alignment for the electrical finish.",
-    "mediaType": "image",
-    "mediaUrl": "/images/project12.png",
-    "featured": false,
-    "createdAt": "2026-04-11T14:27:16.194Z",
-    "updatedAt": "2026-04-11T14:27:16.201Z"
-  },
-  {
     "id": "project-2-video",
     "title": "Site Progress Walkthrough",
     "category": "Bogla Proof Works",

@@ -77,7 +77,9 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                   {Array.from({ length: 5 }).map((_, index) => (
                     <Star key={index} className="h-4 w-4 fill-current" />
                   ))}
-                  <span className="text-sm text-slate-500">Product highlights</span>
+                  <span className="text-sm text-slate-500">
+                    Product highlights
+                  </span>
                 </div>
 
                 <p className="mt-5 max-w-2xl text-sm leading-7 text-slate-600">
@@ -102,9 +104,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                         </div>
                       ))
                     ) : (
-                      <div
-                        className="rounded-xl border border-dashed border-slate-200 px-4 py-5 text-sm text-slate-500"
-                      >
+                      <div className="rounded-xl border border-dashed border-slate-200 px-4 py-5 text-sm text-slate-500">
                         Specifications are not available for this item yet.
                       </div>
                     )}
@@ -118,7 +118,10 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                   <div className="mt-4 space-y-3">
                     {benefits.length > 0 ? (
                       benefits.map((benefit) => (
-                        <div key={benefit} className="flex gap-3 text-sm text-slate-600">
+                        <div
+                          key={benefit}
+                          className="flex gap-3 text-sm text-slate-600"
+                        >
                           <span className="mt-1 h-2 w-2 rounded-full bg-blue-800" />
                           <p>{benefit}</p>
                         </div>
@@ -158,7 +161,9 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                       <h3 className="mt-1 text-sm font-semibold text-slate-900">
                         {item.name}
                       </h3>
-                      <p className="mt-1 text-xs text-slate-500">{item.subtitle}</p>
+                      <p className="mt-1 text-xs text-slate-500">
+                        {item.subtitle}
+                      </p>
                     </Link>
                   </div>
                 ))}
@@ -166,13 +171,13 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
             </div>
           </div>
 
-          <a
+          {/* <a
             href="https://wa.me/"
             aria-label="Chat on WhatsApp"
             className="fixed bottom-6 right-6 z-40 flex h-11 w-11 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition hover:scale-105"
           >
             <MessageCircle className="h-5 w-5" />
-          </a>
+          </a> */}
         </section>
 
         <section className="bg-blue-800 px-4 py-16 text-white sm:px-6 lg:px-8">
@@ -181,7 +186,8 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
               Need Help Finding Parts?
             </h2>
             <p className="mt-3 text-sm text-blue-100 sm:text-base">
-              Our experts can help you find the right spare parts for your vehicle.
+              Our experts can help you find the right spare parts for your
+              vehicle.
             </p>
             <a
               href="/contact"
