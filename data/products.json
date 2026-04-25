@@ -1045,11 +1045,11 @@
     "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
-    "id": "e-nets",
-    "name": "E-Nets",
+    "id": "Reflector triangles",
+    "name": "Reflector triangles",
     "category": "Safety & Accessories",
     "sku": "OBI-031",
-    "subtitle": "Workshop-ready e-nets",
+    "subtitle": "Workshop-ready Reflector triangles",
     "description": "Carefully labeled spare part for the safety & accessories collection.",
     "imageUrl": "/images/product41.png",
     "specs": [
@@ -1189,47 +1189,11 @@
     "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
-    "id": "front-cart",
-    "name": "Front Cart",
+    "id": "front-cuts",
+    "name": "Front Cuts",
     "category": "Exterior & Body",
     "sku": "OBI-035",
-    "subtitle": "Workshop-ready front cart",
-    "description": "Carefully labeled spare part for the exterior & body collection.",
-    "imageUrl": "/images/product58.png",
-    "specs": [
-      {
-        "label": "Brand",
-        "value": "Obi One Auto"
-      },
-      {
-        "label": "Condition",
-        "value": "New replacement"
-      },
-      {
-        "label": "Fitment",
-        "value": "OEM-style / Universal"
-      },
-      {
-        "label": "Use",
-        "value": "Exterior & Body"
-      }
-    ],
-    "benefits": [
-      "Clear product labeling for faster browsing",
-      "Workshop-ready replacement stock",
-      "Consistent category grouping",
-      "Suitable for customer ordering and catalog display"
-    ],
-    "featured": false,
-    "createdAt": "2026-04-19T00:07:09.082Z",
-    "updatedAt": "2026-04-19T00:07:09.082Z"
-  },
-  {
-    "id": "bumper",
-    "name": "Bumper",
-    "category": "Exterior & Body",
-    "sku": "OBI-036",
-    "subtitle": "Workshop-ready bumper",
+    "subtitle": "Workshop-ready front cuts",
     "description": "Carefully labeled spare part for the exterior & body collection.",
     "imageUrl": "/images/product55.png",
     "specs": [
@@ -1261,13 +1225,49 @@
     "updatedAt": "2026-04-19T00:07:09.082Z"
   },
   {
-    "id": "front-shields",
-    "name": "Front Shields",
+    "id": "Front bumpers",
+    "name": "Front bumpers",
+    "category": "Exterior & Body",
+    "sku": "OBI-036",
+    "subtitle": "Workshop-ready Front bumpers",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product58.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "Front shells",
+    "name": "Front shells",
     "category": "Exterior & Body",
     "sku": "OBI-037",
-    "subtitle": "Workshop-ready front shields",
+    "subtitle": "Workshop-ready Front shells",
     "description": "Carefully labeled spare part for the exterior & body collection.",
-    "imageUrl": "/images/product61.png",
+    "imageUrl": "/images/product611.png",
     "specs": [
       {
         "label": "Brand",
@@ -1302,6 +1302,42 @@
     "category": "Exterior & Body",
     "sku": "OBI-038",
     "subtitle": "Workshop-ready fenders",
+    "description": "Carefully labeled spare part for the exterior & body collection.",
+    "imageUrl": "/images/product61.png",
+    "specs": [
+      {
+        "label": "Brand",
+        "value": "Obi One Auto"
+      },
+      {
+        "label": "Condition",
+        "value": "New replacement"
+      },
+      {
+        "label": "Fitment",
+        "value": "OEM-style / Universal"
+      },
+      {
+        "label": "Use",
+        "value": "Exterior & Body"
+      }
+    ],
+    "benefits": [
+      "Clear product labeling for faster browsing",
+      "Workshop-ready replacement stock",
+      "Consistent category grouping",
+      "Suitable for customer ordering and catalog display"
+    ],
+    "featured": false,
+    "createdAt": "2026-04-19T00:07:09.082Z",
+    "updatedAt": "2026-04-19T00:07:09.082Z"
+  },
+  {
+    "id": "Front bumpers",
+    "name": "Front bumpers",
+    "category": "Exterior & Body",
+    "sku": "OBI-038",
+    "subtitle": "Workshop-ready Front bumpers",
     "description": "Carefully labeled spare part for the exterior & body collection.",
     "imageUrl": "/images/product57.png",
     "specs": [

@@ -1,12 +1,12 @@
-import { connection } from "next/server";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProjectsGallery from "@/components/ProjectsGallery";
 import ProjectsHero from "@/components/ProjectsHero";
 import { listProjects } from "@/lib/content-store";
 
+export const dynamic = "force-dynamic";
+
 export default async function ProjectsPage() {
-  await connection();
   const projects = await listProjects();
 
   return (

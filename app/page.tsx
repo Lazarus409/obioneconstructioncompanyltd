@@ -1,4 +1,3 @@
-import { connection } from "next/server";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import AboutCompany from "@/components/AboutCompany";
@@ -13,9 +12,9 @@ import Footer from "@/components/Footer";
 const BOGLA_PROOF_CATEGORY = "Bogla Proof Works";
 const ELECTRICAL_WORKS_CATEGORY = "Electrical Works";
 
-export default async function Home() {
-  await connection();
+export const dynamic = "force-dynamic";
 
+export default async function Home() {
   const [projects, products] = await Promise.all([
     listProjects(),
     listProducts(),

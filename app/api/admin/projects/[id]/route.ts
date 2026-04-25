@@ -11,12 +11,15 @@ import {
 
 export const runtime = "nodejs";
 
-export async function PATCH(request: Request, context: RouteContext<"/api/admin/projects/[id]">) {
+export async function PATCH(
+  request: Request,
+  context: { params: { id: string } },
+) {
   if (!(await isAdminAuthenticated())) {
     return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
   }
 
-  const { id } = await context.params;
+  const { id } = context.params;
   const formData = await request.formData();
   const mediaFile = formData.get("mediaFile");
   const mediaUrlInput = String(formData.get("mediaUrl") ?? "").trim();
@@ -55,12 +58,15 @@ export async function PATCH(request: Request, context: RouteContext<"/api/admin/
   return NextResponse.json({ project });
 }
 
-export async function DELETE(_request: Request, context: RouteContext<"/api/admin/projects/[id]">) {
+export async function DELETE(
+  _request: Request,
+  context: { params: { id: string } },
+) {
   if (!(await isAdminAuthenticated())) {
     return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
   }
 
-  const { id } = await context.params;
+  const { id } = context.params;
   const deleted = await deleteProject(id);
 
   if (!deleted) {

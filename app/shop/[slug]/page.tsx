@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { connection } from "next/server";
 import { MessageCircle, Star } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -10,8 +9,9 @@ type ProductPageProps = {
   params: Promise<{ slug: string }>;
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function ProductDetailPage({ params }: ProductPageProps) {
-  await connection();
   const { slug } = await params;
   const products = await listProducts();
   const product = products.find((item) => item.id === slug);

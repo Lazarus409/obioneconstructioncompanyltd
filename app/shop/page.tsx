@@ -1,12 +1,12 @@
-import { connection } from "next/server";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ShopCatalog from "@/components/ShopCatalog";
 import { listProducts } from "@/lib/content-store";
 import { MessageCircle } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 export default async function ShopPage() {
-  await connection();
   const products = await listProducts();
 
   return (

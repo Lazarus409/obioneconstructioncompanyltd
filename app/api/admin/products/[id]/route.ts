@@ -11,12 +11,15 @@ import {
 
 export const runtime = "nodejs";
 
-export async function PATCH(request: Request, context: RouteContext<"/api/admin/products/[id]">) {
+export async function PATCH(
+  request: Request,
+  context: { params: { id: string } },
+) {
   if (!(await isAdminAuthenticated())) {
     return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
   }
 
-  const { id } = await context.params;
+  const { id } = context.params;
   const formData = await request.formData();
   const imageFile = formData.get("imageFile");
   const imageUrlInput = String(formData.get("imageUrl") ?? "").trim();
@@ -60,12 +63,15 @@ export async function PATCH(request: Request, context: RouteContext<"/api/admin/
   return NextResponse.json({ product });
 }
 
-export async function DELETE(_request: Request, context: RouteContext<"/api/admin/products/[id]">) {
+export async function DELETE(
+  _request: Request,
+  context: { params: { id: string } },
+) {
   if (!(await isAdminAuthenticated())) {
     return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
   }
 
-  const { id } = await context.params;
+  const { id } = context.params;
   const deleted = await deleteProduct(id);
 
   if (!deleted) {

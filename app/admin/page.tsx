@@ -1,13 +1,12 @@
 import { redirect } from "next/navigation";
-import { connection } from "next/server";
 
 import AdminDashboard from "@/components/AdminDashboard";
 import { isAdminAuthenticated } from "@/lib/admin-auth";
 import { listProducts, listProjects } from "@/lib/content-store";
 
-export default async function AdminPage() {
-  await connection();
+export const dynamic = "force-dynamic";
 
+export default async function AdminPage() {
   if (!(await isAdminAuthenticated())) {
     redirect("/admin/login");
   }
@@ -24,4 +23,3 @@ export default async function AdminPage() {
     />
   );
 }
-
